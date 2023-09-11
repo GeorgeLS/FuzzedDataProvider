@@ -1,0 +1,19 @@
+[package]
+name = "fuzzed-data-provider-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["George Liontos <georgeliontos98@gmail.com>"]
+readme = "README.md"
+categories = ["fuzzing"]
+documentation = "https://docs.rs/fuzzed-data-provider-rs"
+include = [
+    "Cargo.toml",
+    "README.md",
+    "src/**/*.rs",
+]
+description = """
+fuzzed-data-provider-rs is library that you can use in order to consume fuzz binary data and shape them into structured values.
+"""
+license = "GPL-2.0"
+
+[dependencies]
