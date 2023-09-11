@@ -5,7 +5,6 @@ edition = "2021"
 authors = ["George Liontos <georgeliontos98@gmail.com>"]
 readme = "README.md"
 categories = ["fuzzing"]
-documentation = "https://docs.rs/fuzzed-data-provider-rs"
 include = [
     "Cargo.toml",
     "README.md",
